@@ -9,7 +9,7 @@ Olá Dev, esse é um projet do Frontend Mentor que tem como objetivo criar um ge
 
 
 
-## Tecnolofgias usadas 
+## Tecnologías usadas 
 - HTML5
 - CSS3
 - Javascript
