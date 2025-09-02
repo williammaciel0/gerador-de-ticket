@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Conference ticket generator</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/resets.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+</head>
+<body>
+    <main class="container">
+        <img class="logo" src="./assets/images/logo-full.svg" alt="">
+        <section class="titulo-grande"> 
+            <p class="titulo1">Your Journey to Coding Conf 2025 Starts Here!</p>
+            <p class="descricao1">Secure your spot at next year's biggest coding conference.</p>
+        </section>
+        <section class="formulario">
+            
+            <div class="input-upload">
+                <p class="titulo-input">Upload Avatar</p>
+                <div class="upload">
+                    <img class="icone" src="./assets/images/icon-upload.svg" alt="">
+                    <p>Drag and drop or click to upload</p>
+                </div>
+                <p><img src="./assets/images/icon-info.svg" alt=""> Upload your photo (JPG or PNG, max size: 500KB).</p>
+            </div>
+            <div class="sumir">
+                <div class="validacao">
+                <p class="titulo-input">Full Name</p>
+                <input id="nm" class="campo"type="text">
+            </div>
+            
+            <div class="validacao"> 
+                <p class="titulo-input">Email Address</p>
+                <input id="ems" class="campo" type="email" placeholder="example@email.com">
+            </div>
+            
+            <div class="validacao">
+                <p class="titulo-input">GitHub Username</p>
+                <input id="ghu" class="campo" type="text" placeholder="@yourusername">
+            </div>
+            <br>
+            <button onclick="evento()" class="botao-acao">Generate My Ticket</button>
+            </div>
+            
+        </section>
+        <section class="sessao-card"></section>
+    </main>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

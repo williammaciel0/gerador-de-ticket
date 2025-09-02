@@ -1,0 +1,186 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  0 auto;
+    gap: 2rem;
+    max-width: 1440px;
+    min-height: 100vh;
+
+    background-image: url(../images/pattern-circle.svg), url(../images/pattern-squiggly-line-top.svg), url(../images/pattern-squiggly-line-bottom-desktop.svg), url(../images/pattern-lines.svg), url(../images/background-desktop.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: center right 15%, top right, left bottom, center, center;
+}
+
+.esconder {
+    display: none;
+}
+
+.logo {
+    margin: 4rem;
+}
+
+.container .titulo-grande {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.descricao1 {
+    text-align: center;
+    font-size: 2rem;
+    width: 60rem;
+}
+
+.titulo {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 2rem;
+    width: 60rem;
+}
+
+.container .formulario .validacao.campo-vazio::after {
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+    content: "campo obrigatório";
+    display: block;
+}
+
+.container .formulario .titulo-input {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container .formulario .upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    height: 14rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 2px dashed hsla(252, 6%, 83%, 0.5);
+    background-color: hsla(245, 19%, 35%, 0.4);
+}
+
+.container .formulario .upload img {
+    margin-bottom: 1rem;
+    border:1px solid hsla(252, 6%, 83%, 0.3);
+    cursor: pointer;
+}
+
+.container .formulario .upload p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.container .formulario .upload .icone {
+    background-color: hsla(245, 19%, 35%, 0.5);
+    width: 5rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+input {
+    width: 45rem;
+    padding: 1.4rem;
+    border-radius: 10px;
+    border: 1px solid hsla(252, 6%, 83%, 0.5);
+    background-color: hsla(245, 19%, 35%, 0.4);
+    color: white;
+}
+
+.botao-acao {
+    width: 45rem;
+    padding: 1.4rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2rem;
+    background-color: hsl(7, 88%, 67%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container .sessao-card {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .sessao-card .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../images/pattern-ticket.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 280px;
+    padding: 2.5rem 2rem ;
+    width: 600px;
+    height: 280px;
+    margin-top: 8rem;
+}
+
+.container .sessao-card .card img {
+    width: 4rem;
+}
+
+.container .sessao-card .card h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.container .sessao-card .card p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.container .sessao-card .card .logo-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.container .sessao-card .card .avatar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container .sessao-card .card .avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.container .sessao-card .card .avatar .informacoes-avatar h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.container .sessao-card .card .avatar .informacoes-avatar p img {
+    width: 2.2rem;
+    height: 2.2rem;
+}

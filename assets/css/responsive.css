@@ -1,0 +1,108 @@
+@media (max-width: 375px){
+    .container {
+        max-width: 375px;
+        min-height: 100vh;
+        margin:  0 auto;
+        background-image: url(../images/pattern-squiggly-line-top.svg), url(../images/pattern-squiggly-line-bottom-mobile-tablet.svg), url(../images/pattern-lines.svg), url(../images/background-mobile.png);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: right 1%, left bottom, center, center;
+    }
+
+    .container .titulo-grande {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .titulo-grande .titulo1 {
+        font-size: 2.7rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .container .titulo-grande .descricao1 {
+        text-align: center;
+        font-size: 1.8rem;
+        width: 35rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+        width: 35rem;
+    }
+
+    .descricao {
+        text-align: center;
+        font-size: 1.8rem;
+        width: 34rem;
+    }
+
+    .container .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .formulario .input-upload .upload p {
+        font-size: 1.8rem;
+    }
+
+    .container .formulario .upload, input, .botao-acao {
+        width: 35rem;
+    }
+
+    .container .sessao-card .card {
+        background-size: 35rem 28rem;
+        background-position: center;
+        width: 35rem;
+        padding: 7rem 1.8rem ;
+        gap: 2rem;
+        margin-top: 0;
+    }
+
+    .container .sessao-card .card img {
+        width: 3rem;
+    }
+
+    .container .sessao-card .card h1 {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .container .sessao-card .card p {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .container .sessao-card .card .logo-card {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .container .sessao-card .card .avatar {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .container .sessao-card .card .avatar img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .container .sessao-card .card .avatar .informacoes-avatar h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        color: white;
+    }
+
+    .container .sessao-card .card .avatar .informacoes-avatar p img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
